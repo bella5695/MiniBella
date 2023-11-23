@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: black;
 		font-weight: 300;
 		font-size: 13pt;
 	}
@@ -110,7 +110,7 @@ input, select, textarea {
 		-webkit-transition: color .2s ease-in-out;
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
-		color: #eebada;
+		color: darkblue;
 		text-decoration: underline;
 	}
 
