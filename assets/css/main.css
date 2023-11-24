@@ -1554,7 +1554,7 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: white!important;
 	}
 
 	form :-moz-placeholder {
@@ -1824,7 +1824,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-facebook-f {
-					background-color: #3C5A98;
+					background-color: white;
 				}
 
 				ul.social li a.fa-dribbble {
