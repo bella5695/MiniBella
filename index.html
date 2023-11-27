@@ -10,6 +10,39 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <script language="javascript">
+            function myFunction(obj) {
+                if (obj == "me") {
+                    if (document.getElementById("myIntro1").style.display == "none" || document.getElementById("myIntro1").style.display == "") {
+                        document.getElementById("myIntro1").style.display = "block";
+                    } else {
+                        document.getElementById("myIntro1").style.display = "none";
+                    }
+                    
+                    if (document.getElementById("myIntro2").style.display == "none" || document.getElementById("myIntro2").style.display == "") {
+                        document.getElementById("myIntro2").style.display = "block";
+                    } else {
+                        document.getElementById("myIntro2").style.display = "none";
+                    }
+                    
+                    if (document.getElementById("myIntro3").style.display == "none" || document.getElementById("myIntro3").style.display == "") {
+                        document.getElementById("myIntro3").style.display = "block";
+                    } else {
+                        document.getElementById("myIntro3").style.display = "none";
+                    }
+                    
+                    toggleParagraphVisible();
+                }
+            }
+            function toggleParagraphVisible() {
+                if (document.getElementById("textIsHidden").innerText == "more..."){
+                    document.getElementById("textIsHidden").innerText = "less...";
+                } else {
+                    document.getElementById("textIsHidden").innerText = "more...";
+                }
+            }
+
+            </script>
 	</head>
 	<body class="is-preload">
 
@@ -38,9 +71,11 @@
                             <p></p>
 							<p> I'm a 4th-year student in Professional Writing at York University. As a professional writer and content creator, I value design which is creating content and presenting it in a visually appealing way for others to view the information. </p>
                             <p>My interests are graphic design,  programming, and writing books because I like visual arts in creating artworks that allow me to express my creativity in a visual way. </p>
-                           <p> I like graphic design because I like to design images that present information, and allow me to create my own artworks, and other things that allow me to express my thought processes. </p>
-                           <p> I also like programming because it involves coming up with ways that people can implement and execute code to be able to use technology to create fascinating digital things. Coding is relevant in today’s world where there is a lot of digital technology, and it seems like it is able to create new things using technology. I really admire coding and programming, such as being able to design your own website, through code, and placing things. As a writer, I think that working with other digital programmers would be helpful in publishing your work online, and getting to be able to publish content online. </p> <p>Lastly, I enjoy writing books and coming up with stories, such as authors who have written their books, and stories. Some of my favourite books have been Harry Potter, and ShadowHunters which were new, immersive worlds that were like a new world within a book, so it was very cool to read, and get insight into a new creative world that the author was creating. I would also like to publish my own book one day, and create my own fictional world. I enjoy reading realistic fiction and fantasy.</p>
-							<a href="#work" class="button large scrolly">Learn more about what I do</a>
+                            <h3><a ref="" id="textIsHidden" onclick ="myFunction('me');">more...</a></h3>
+                            <p id="myIntro1"> I like graphic design because I like to design images that present information, and allow me to create my own artworks, and other things that allow me to express my thought processes. </p>
+                           <p id="myIntro2"> I also like programming because it involves coming up with ways that people can implement and execute code to be able to use technology to create fascinating digital things. Coding is relevant in today’s world where there is a lot of digital technology, and it seems like it is able to create new things using technology. I really admire coding and programming, such as being able to design your own website, through code, and placing things. As a writer, I think that working with other digital programmers would be helpful in publishing your work online, and getting to be able to publish content online. </p>
+                           <p id="myIntro3">Lastly, I enjoy writing books and coming up with stories, such as authors who have written their books, and stories. Some of my favourite books have been Harry Potter, and ShadowHunters which were new, immersive worlds that were like a new world within a book, so it was very cool to read, and get insight into a new creative world that the author was creating. I would also like to publish my own book one day, and create my own fictional world. I enjoy reading realistic fiction and fantasy.</p>
+							<a href="#work" class="button large scrolly">Read more about what I do</a>
 						</div>
 					</div>
 				</div>
@@ -57,12 +92,15 @@
 						<div class="col-4 col-6-medium col-12-small">
                             <section class="box style1">
                                 <h3>Welcome Message</h3>
-                                <iframe width="250" height="205" src="https://www.youtube.com/embed/N5kHg_JOkwE"></iframe>
+                                <p></p>
+                                <iframe width="250" height="250" src="https://www.youtube.com/embed/N5kHg_JOkwE"></iframe>
+                                <p></p>
                             </section>
                         </div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
                                 <p></p>
+                                <h3></h3>
 								<span class="icon solid featured fa-camera-retro"></span>
 								<h3>Resume</h3>
                                 <p></p>
@@ -72,9 +110,10 @@
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
-								<span class="icon featured fa-thumbs-up"></span>
+								<!--span  class="icon featured fa-thumbs-up"></span -->
 								<h3>Highlights</h3>
-								<p>My first job is as an website article feature writer, where I was able to write articles featuring companies. With proramming and writing, next semester I am taking a course in programming for writers, which intersects writing and programming, which I am excited about.</p>
+								<ul>My first job is as an website article feature writer, where I was able to write articles featuring companies.</ul>
+                                <ul>With programming and writing, next semester I am taking a course in programming for writers, which intersects writing and programming, which I am excited about.</ul>
 							</section>
 						</div-->
 					</div>
