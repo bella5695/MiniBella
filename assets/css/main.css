@@ -2032,7 +2032,21 @@ input, select, textarea {
 				.wrapper.style4 form textarea:focus {
 					background: #252525;
 				}
+/* myIntro */
 
+#myIntro1 {
+display:none;
+}
+
+#myIntro2 {
+display:none;
+}
+
+#myIntro3 {
+display:none;
+}
+
+/* Nav */
 /* Nav */
 
 	#nav {
