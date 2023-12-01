@@ -2046,7 +2046,11 @@ display:none;
 display:none;
 }
 
-/* Nav */
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 /* Nav */
 
 	#nav {
